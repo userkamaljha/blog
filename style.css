@@ -1,0 +1,379 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap'); */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #0c71c3;
+}
+.container-fluid {
+  background: linear-gradient(3deg, #f7f7f7 11%, rgba(0, 0, 0, 0.4) 12%),
+    url(https://ankurwarikoo.com/wp-content/uploads/2022/02/DSC00977-scaled-1.webp)
+      no-repeat center center / cover;
+  height: 100vh;
+}
+
+.container {
+  height: 100vh;
+}
+.logo img {
+  height: 70px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.list {
+  display: flex;
+  justify-content: end;
+  list-style-type: none;
+  margin-top: 25px;
+}
+.dropdown-menu {
+  background-color: #191919f6;
+  height: 310px;
+  width: 230px;
+  padding: 20px 15px;
+  margin-top: 20px;
+  border-top: 3px solid #0c71c3;
+}
+.dropdown-item {
+  color: #f3f2f2;
+  font-family: 14px;
+  font-weight: 600;
+  line-height: 26px;
+  font-size: 14px;
+}
+.dropdown-item:hover {
+  color: #f3f2f29f;
+  background: none;
+}
+.link-content {
+  /* line-height: 30px; */
+  margin-bottom: 8px;
+}
+.links {
+  color: #f3f2f2;
+  font-size: 14px;
+  line-height: 14px;
+  font-weight: 600;
+  text-align: left;
+  padding-left: 22px;
+}
+.links:hover {
+  color: #f3f2f29f;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.header-content {
+  display: flex;
+  margin-top: 190px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.header-content h1 {
+  color: #ffffff9b;
+  letter-spacing: 1px;
+  font-size: 82px;
+  font-weight: bolder;
+}
+.header-content h2 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+/* social */
+.media {
+  background-color: #f7f7f7;
+  text-align: center;
+  height: 70vh;
+}
+.social {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.media h2 {
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #333333;
+}
+
+.underline {
+  height: 3px;
+  background: #ff6900;
+  margin: 0 auto 30px;
+  position: relative;
+  width: 25px;
+}
+.media h2::after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  width: 0;
+}
+.media h4 {
+  font-size: 14px;
+  text-align: center;
+  color: #666666;
+}
+.social-links {
+  margin-right: 59px;
+  width: 140px;
+  padding: auto 16px;
+}
+.social-icon {
+  width: 80px;
+  align-items: center;
+  margin-bottom: 26px;
+}
+.social-icon:hover {
+  -webkit-filter: grayscale(1) invert(1);
+  filter: grayscale(100%) invert(1);
+}
+/* about */
+.about {
+  height: 81vh;
+}
+.about-img {
+  padding: 0px;
+}
+.about-content {
+  color: #fff;
+  margin: auto;
+  padding: 60px;
+  width: 200px;
+}
+.about-heading {
+  font-size: 30px;
+}
+.about-line {
+  background-color: #fff;
+  margin: 15px 0px 20px;
+}
+.about-para {
+  margin-top: 40px;
+  padding-right: 30px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.about-btn {
+  background: #fff;
+  color: #0c71c3;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 9px 22px;
+}
+
+/* courses */
+.course-container {
+  background: #fff;
+}
+.course-container h2 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 70px;
+  font-size: 29px;
+  color: #000;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.course-section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 80px;
+  box-sizing: border-box;
+
+}
+.course-img {
+  height: 130px;
+  padding-right: 30px;
+  margin-bottom: 20px;
+}
+
+.course-title {
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* blog */
+
+.blog-container {
+  background: #0c71c3;
+  display: flex;
+}
+.blog-title h2 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 70px;
+  font-size: 29px;
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+ 
+}
+.blog-content {
+  color: #fff;
+  width: 600px;
+  border: 1px solid #fff;
+  padding: 15px 18px;
+  margin-right: 40px;
+}
+.blog-content h3 {
+  font-size: 20px;
+}
+.blog-content p {
+  font-size: 13px;
+}
+
+.blog-btn  {
+  text-align: center;
+  justify-content: center;
+ 
+
+  
+  margin-top: 40px;
+margin-bottom: 60px;
+  
+}
+.blog-btn a{
+    border: 2px solid #fff;
+    background: transparent;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 3px;
+  padding: 8px 14px;
+}
+.blog-btn a:hover  {
+background: #000;
+text-decoration: none;
+transition:0.3s;
+border: #000;
+border-radius: 0px;
+}
+/* hire */
+.hire{
+    background: url(./assets/asset\ 16.png) no-repeat center center / cover ;
+    background-color: #fff;
+    height:95vh; 
+ 
+   
+}
+.hire-title h2{
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #333333;
+}
+.hire-shape{
+    margin: 6px 0px;
+}
+.form input{
+
+   display: flex;
+   width: 500px;
+   padding: 13px 16px;
+  margin: 20px 0;
+  outline: none;
+  border-radius: 2px;
+   border:  0.6px solid #cdc9c9;
+
+}
+.form textarea{
+    padding: 12px 20px;
+    border:  0.6px solid #cdc9c9;
+    outline: none;
+}
+.form .hire-btn{
+    background: #0c71c3;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    padding: 12px 28px;
+}
+
+/* footer */
+.footer{
+  background: #222222;
+ 
+
+}
+.f-section{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 60px auto;
+  
+}
+.footer-links li::before {
+  content: "\2022";
+  color: #0b77cf;
+  font-weight: bold;
+  font-size: 18px;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.f-img{
+  width: 250px;
+  align-items: center;
+}
+.footer-links{
+ 
+  margin-left: 150px;
+  
+  
+ 
+}
+.f-links{
+  color: #f3f2f2;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.f-links:hover{
+  color: #f3f2f29f;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.f-copywrites  {
+  color: #666666;
+  background-color: #0000003c;
+  text-align: center;
+  font-size: 14px;
+  padding: 16px 0;
+}
+.f-copywrites p {
+ margin: 0;
+}
+.f{
+ 
+}
+/* media qurey */
+@media(max-width:768px){
+  
+ 
+
+
+ }
+
+
+   
+
